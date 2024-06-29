@@ -1,6 +1,6 @@
 # Packer Debian Latest Provisioning
 
-This project automates the provisioning of a Virtual Machine (VM) on VirtualBox using Packer and Debian. It collects user inputs for VM configuration, generates SSH keys, creates a preseed file and writes the necessary configuration files before triggering Packer to build the VM.
+This project automates the provisioning of a Debian virtual machine on VirtualBox using Packer. It collects user inputs for VM configuration, generates SSH keys, creates a preseed file based on inputs before triggering Packer to build the VM.
 
 ## Prerequisites
 
