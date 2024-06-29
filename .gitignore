@@ -1,0 +1,40 @@
+### Packer ###
+# Cache objects
+packer_cache/
+
+# Crash log
+crash.log
+
+# Variable file
+variables.hcl
+*.pkrvars.hcl
+
+# For built boxes
+*.box
+
+### Packer Patch ###
+# ignore temporary output files
+output-*/
+
+### Preseed ###
+http/*.pub
+http/preseed.cfg
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
