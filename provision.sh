@@ -23,7 +23,7 @@ read -p "VM Name (e.g. debian-web): " VM_NAME
 read -p "VM User (e.g. liam): " VM_USER
 read -p "CPUs (e.g. 4): " VM_CPUS
 read -p "RAM (MB, e.g. 4096): " VM_RAM
-read -p "Disk Size (MB, e.g. 5000): " VM_DISK_SIZE
+read -p "Disk Size (MB, e.g. 15000): " VM_DISK_SIZE
 
 # Create the Packer HTTP folder
 mkdir -p $PACKER_HTTP
